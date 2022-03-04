@@ -76,4 +76,4 @@ SELECT speed, AVG(price) FROM pc GROUP BY speed HAVING speed > 600
 SELECT DISTINCT maker FROM product JOIN pc ON product.model=pc.model  WHERE (pc.speed>=750)
 INTERSECT
 SELECT DISTINCT maker FROM product JOIN laptop ON product.model=laptop.model WHERE (laptop.speed>=750)
-24.
+24.  
